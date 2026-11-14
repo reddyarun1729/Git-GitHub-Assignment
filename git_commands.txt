@@ -1,23 +1,67 @@
+# Git and GitHub Commands
 
-Git and GitHub Commands Used
+1. `git init` – Initializes a new local Git repository.
 
-1. git init
-2. git status
-3. git add .
-4. git config --global user.name "Arun Kumar Reddy"
-5. git config --global user.email "reddyarun2054772@gmail.com"
-6. git commit -m "Initial commit"
-7. git add index.html
-8. git commit -m "Update index page"
-9. git branch feature-about
-10. git switch feature-about
-11. git branch
-12. git add about.html
-13. git commit -m "Add content to about page"
-14. git switch master
-15. git merge feature-about
-16. git log --oneline
-17. git restore index.html
-18. git remote add origin https://github.com/reddyarun1729/Git-GitHub-Assignment.git
-19. git remote -v
-20. git push -u origin master
+2. `git status` – Displays the current status of the repository.
+
+3. `git config --global user.name "Arun Kumar Reddy"` – Sets the Git username.
+
+4. `git config --global user.email "reddyarun2054772@gmail.com"` – Sets the Git email address.
+
+5. `git config --global --list` – Displays Git configuration details.
+
+6. `git add .` – Stages all files for committing.
+
+7. `git add index.html` – Stages the specified file.
+
+8. `git commit -m "Initial commit"` – Creates the initial commit.
+
+9. `git branch feature-about` – Creates a feature branch.
+
+10. `git switch feature-about` – Switches to the feature branch.
+
+11. `git branch` – Lists local branches.
+
+12. `git add about.html` – Stages changes to the About page.
+
+13. `git commit -m "Add content to about page"` – Commits changes to the About page.
+
+14. `git switch master` – Switches back to the original master branch.
+
+15. `git merge feature-about` – Merges the feature branch into the current branch.
+
+16. `git log --oneline` – Displays a short commit history.
+
+17. `git add .gitignore` – Stages the .gitignore file.
+
+18. `git restore index.html` – Discards uncommitted changes in index.html.
+
+19. `git remote add origin https://github.com/reddyarun1729/Git-GitHub-Assignment.git` – Adds the GitHub remote repository.
+
+20. `git remote -v` – Displays remote repository URLs.
+
+21. `git push -u origin master` – Pushes the original master branch to GitHub.
+
+22. `git push` – Pushes commits to the configured upstream branch.
+
+23. `git branch -m master main` – Renames master to main.
+
+24. `git branch -m feature-about feature` – Renames feature-about to feature.
+
+25. `git push -u origin main` – Pushes the main branch to GitHub.
+
+26. `git push origin --delete master` – Deletes the old master branch from GitHub.
+
+27. `git push -u origin feature` – Pushes the feature branch to GitHub.
+
+28. `git branch -a` – Lists all local and remote branches.
+
+29. `git revert --no-edit HEAD` – Reverses the latest commit by creating a new commit.
+
+30. `git log --oneline --graph --all -8` – Displays recent commit history with branch relationships.
+
+31. `git push origin main` – Pushes the latest main branch commits to GitHub.
+
+32. `git add git_commands.txt` – Stages the Git commands documentation file.
+
+33. `git commit -m "Update Git commands documentation"` – Commits changes to the documentation.
